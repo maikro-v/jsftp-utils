@@ -1,6 +1,6 @@
 {
   "name": "jsftp-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "使用js操作ftp上传文件",
   "main": "./src/index.js",
   "scripts": {

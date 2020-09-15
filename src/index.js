@@ -88,7 +88,7 @@ class JSFtp {
   * @param { String } remoteDir 远程路径
   * */
   uploadDir(localDir, remoteDir) {
-    return new Promise(async (resolve, reject) => {
+    return async() => {
       try {
         const info = this.getFileAndDirList(localDir)
         // 进度条
@@ -118,11 +118,11 @@ class JSFtp {
 
         spinner.succeed('文件上传成功\n')
         spinner.clear()
-        resolve()
+        return Promise.resolve()
       } catch (err) {
-        reject(err)
+        return Promise.reject(err)
       }
-    })
+    }
   }
 
   /*
