@@ -1,6 +1,6 @@
 {
   "name": "jsftp-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "使用js操作ftp上传文件",
   "main": "./src/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "+"
+    "url": "https://github.com/maikro-v/jsftp-utils.git"
   },
   "author": "maikro@126.com",
   "license": "ISC",
