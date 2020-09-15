@@ -1,0 +1,25 @@
+{
+  "name": "jsftp-utils",
+  "version": "1.0.0",
+  "description": "使用js操作ftp上传文件",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jsftp-utils",
+    "jsftp",
+    "ftp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "+"
+  },
+  "author": "maikro@126.com",
+  "license": "ISC",
+  "devDependencies": {
+    "ora": "^5.1.0",
+    "progress": "^2.0.3",
+    "ssh2": "^0.8.9"
+  }
+}
